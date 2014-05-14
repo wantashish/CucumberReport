@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spring-core-3.0.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.0.5.RELEASE/jar/1633e94943d57746ef76910489f1cd71fe667e04/spring-core-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.0.5.RELEASE/source/5e85a2d0d58fe27604eb447170e877e408a28ead/spring-core-3.0.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

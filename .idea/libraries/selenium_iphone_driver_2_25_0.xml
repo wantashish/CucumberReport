@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="selenium-iphone-driver-2.25.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.seleniumhq.selenium/selenium-iphone-driver/2.25.0/jar/a8cfafcbb85ec3b966ad399ecfa56b1cdca98173/selenium-iphone-driver-2.25.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.seleniumhq.selenium/selenium-iphone-driver/2.25.0/source/bdc60544cf22e3b36479e26ae6c45e49057241f5/selenium-iphone-driver-2.25.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

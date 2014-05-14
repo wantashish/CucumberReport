@@ -1,0 +1,141 @@
+[
+  {
+    "id": "updating-items-in-the-basket",
+    "description": "",
+    "name": "Updating items in the basket",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "updating-items-in-the-basket;adding-items",
+        "description": "",
+        "name": "Adding items",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 142553000,
+              "status": "passed"
+            },
+            "name": "a basket with 5 items in it",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdatingBasketSteps.createBasket(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 59000,
+              "status": "passed"
+            },
+            "name": "2 items are added to the basket",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "UpdatingBasketSteps.addItemsToTheBasket(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 7684000,
+              "status": "passed"
+            },
+            "name": "the basket contains 7 items",
+            "keyword": "Then ",
+            "line": 6,
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 20
+                }
+              ],
+              "location": "UpdatingBasketSteps.checkItemsCount(int)"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "updating-items-in-the-basket;removing-items",
+        "description": "",
+        "name": "Removing items",
+        "keyword": "Scenario",
+        "line": 8,
+        "steps": [
+          {
+            "result": {
+              "duration": 105000,
+              "status": "passed"
+            },
+            "name": "a basket with 5 items in it",
+            "keyword": "Given ",
+            "line": 9,
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "UpdatingBasketSteps.createBasket(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "name": "2 items are removed from the basket",
+            "keyword": "When ",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 0
+                }
+              ],
+              "location": "UpdatingBasketSteps.removeItemsFromTheBasket(int)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1455000,
+              "status": "failed",
+              "error_message": "java.lang.AssertionError: \nExpected: is \u003c3\u003e\n     but: was \u003c4\u003e\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:865)\n\tat org.junit.Assert.assertThat(Assert.java:832)\n\tat UpdatingBasketSteps.checkItemsCount(UpdatingBasketSteps.java:36)\n\tat ✽.Then the basket contains 3 items(src/test/resources/UpdatingBasket.feature:11)\n"
+            },
+            "name": "the basket contains 3 items",
+            "keyword": "Then ",
+            "line": 11,
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "UpdatingBasketSteps.checkItemsCount(int)"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "src/test/resources/UpdatingBasket.feature"
+  }
+]

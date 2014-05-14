@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="webbit-0.4.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.webbitserver/webbit/0.4.6/jar/e683ab46f7ebecdabc0acffb87821a58a01f0344/webbit-0.4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.webbitserver/webbit/0.4.6/source/5394fabeb397ae9b075606a3e947d47b77f6a410/webbit-0.4.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="xom-1.2.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/xom/xom/1.2.5/jar/4166493b9f04e91b858ba4150b28b4d197f8f8ea/xom-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/xom/xom/1.2.5/source/89b7d070b6725921605a900b070bd9034ede720d/xom-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

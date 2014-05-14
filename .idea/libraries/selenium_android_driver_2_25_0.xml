@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="selenium-android-driver-2.25.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.seleniumhq.selenium/selenium-android-driver/2.25.0/jar/39327889a2adf681952db15a8b229bf1c25e5ebe/selenium-android-driver-2.25.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.seleniumhq.selenium/selenium-android-driver/2.25.0/source/34f6ab8079e338349839c1447a3c571f9df9194b/selenium-android-driver-2.25.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

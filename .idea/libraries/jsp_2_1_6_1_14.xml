@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jsp-2.1-6.1.14">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.mortbay.jetty/jsp-2.1/6.1.14/jar/3a1df1e8e0fa56e9a940abbd19bc6f397fce16b5/jsp-2.1-6.1.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.mortbay.jetty/jsp-2.1/6.1.14/source/191e377d51c184744db940a578cfadadda02de7a/jsp-2.1-6.1.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

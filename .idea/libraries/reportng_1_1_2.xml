@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="reportng-1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.uncommons/reportng/1.1.2/jar/69578f378717902a0f2eaffa5b2571e9ba1781af/reportng-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.uncommons/reportng/1.1.2/source/4ad85fe0606b24a59546a8d0e94da6f0881a4dc3/reportng-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
