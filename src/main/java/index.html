@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Learning AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/controllers/maincontroller.js" type="text/javascript"></script>
+    <script src="../test/report/UpdatingBasket.json" type="text/json"></script>
+</head>
+<body>
+    <div id='content' ng-app='MyTutorialApp' ng-controller='MainController'>
+        <!---------------------------------------------->
+        <!--<label>What you are looking for</label>-->
+        <!--<input type='text' ng-model='searchText'/>-->
+        <!--<label ng-repeat='person in people' ng-show='person.name.toLowerCase().indexOf(searchText) >= 0 && searchText != ""'>{{', is my friend '+person.name+' and he likes ' +person.music}}</label>-->
+        <!---------------------------------------------->
+        <div>
+            <button ng-click="fetch()">Read results</button>
+            <button ng-click="clear()">Clear results</button>
+
+            <div>
+                <div><textarea id="results" rows="350" cols="150">{{data}}</textarea></div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
