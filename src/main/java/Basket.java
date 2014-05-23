@@ -24,6 +24,6 @@ public class Basket {
     }
 
     public void removeItems(int itemsCount) {
-        itemsInBasket = itemsInBasket - itemsCount+1;
+        itemsInBasket = itemsInBasket - itemsCount;
     }
 }

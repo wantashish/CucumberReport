@@ -12,6 +12,9 @@ app.controller("MainController", function($scope,$http){
     $scope.selectedGenre = "";
     $scope.url = "http://localhost:8080/getResultJson?callback=JSON_CALLBACK";
     $scope.data = "";
+    $scope.scenarios = null;
+    $scope.selectedScenario = null;
+    $scope.scenarioResult = "Passed";
     $scope.people = [
         {
             id: 0,
@@ -72,23 +75,30 @@ app.controller("MainController", function($scope,$http){
     };
 
     $scope.fetch =  function(){
-//        $http.jsonp.get($scope.url).
+        $scope.scenarios=null;
+        $scope.selectedScenario = null;
         $http({
             method: "GET",
             url:$scope.url
         }).success(function(data, status){
             $scope.status = status;
-            $scope.data  = data;
+            $scope.scenarios  = data;
         }).
            error(function(data, status){
                 $scope.data = "Request failed";
                 $scope.status = status;
             });
-//        $scope.data="This is in the function";
-
     };
     $scope.clear =  function(){
        $scope.data = ""
     };
 
+    $scope.getScenarioResult = function(){
+        $scope.scenarioResult = "Passed";
+        angular.forEach($scope.selectedScenario.steps,function(step){
+            if(step.result.status == 'failed'){
+                 $scope.scenarioResult = "Failed";
+            }
+        })
+    };
 });

@@ -15,14 +15,17 @@
         <!---------------------------------------------->
         <div>
             <button ng-click="fetch()">Read results</button>
-            <button ng-click="clear()">Clear results</button>
+            <!--<button ng-click="clear()">Clear results</button>-->
 
             <div>
-                <div><textarea id="results" rows="350" cols="150">{{data}}</textarea></div>
+                <!--<div><textarea id="results" rows="35" cols="15">{{scenarios}}</textarea></div>-->
+                <select ng-show='scenarios!= null' ng-model='selectedScenario' ng-change = 'getScenarioResult()' ng-options='scenario.id for scenario in scenarios[0].elements'></select>
+            </div>
+            <div>
+                <li ng-repeat='step in selectedScenario.steps'>{{step.keyword + step.name+' : '+step.result.status}}</li>
+                <label ng-hide='selectedScenario.id == null'>{{'This test is '+ scenarioResult}}</label>
             </div>
         </div>
-
-
     </div>
 </body>
 </html>
